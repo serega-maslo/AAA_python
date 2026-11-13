@@ -1,0 +1,16 @@
+[project]
+name = "aaa-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flake8>=7.5.0",
+    "mypy>=2.4.1",
+    "ruff>=0.17.5",
+]
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
