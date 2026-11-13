@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# uv virtual environment
+.venv/
+
+# Linters and tests
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
